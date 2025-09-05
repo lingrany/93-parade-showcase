@@ -1,11 +1,24 @@
 'use client';
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
+
+interface Equipment {
+  name: string;
+  type: string;
+  description: string;
+  specifications: Record<string, string>;
+  image: string;
+}
+interface Category {
+  name: string;
+  description: string;
+  equipment: Equipment[];
+}
 import Link from 'next/link';
 import { useAudio } from '../../hooks/useAudio';
 
 // 2025年阅兵装备数据（基于官方资料）
-const equipmentData = {
+const equipmentData: Record<string, Category> = {
   "airForce": {
     "name": "Air Force Equipment",
     "description": "Advanced aerial platforms showcasing China's air superiority capabilities",
@@ -206,7 +219,7 @@ const equipmentData = {
 
 export default function EquipmentPage() {
   const [selectedCategory, setSelectedCategory] = useState<keyof typeof equipmentData>('airForce');
-  const [selectedEquipment, setSelectedEquipment] = useState<any>(null);
+  const [selectedEquipment, setSelectedEquipment] = useState<Equipment | null>(null);
   const [backgroundImage, setBackgroundImage] = useState('');
   
   // 使用音频Hook

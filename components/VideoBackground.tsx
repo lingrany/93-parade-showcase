@@ -10,6 +10,7 @@ export interface VideoBackgroundRef {
   playVideo: () => void;
   muteVideo: () => void;
   unmuteVideo: () => void;
+  setVolume: (volume: number) => void;
 }
 
 const VideoBackground = forwardRef<VideoBackgroundRef, VideoBackgroundProps>(
@@ -52,6 +53,12 @@ const VideoBackground = forwardRef<VideoBackgroundRef, VideoBackgroundProps>(
       unmuteVideo: () => {
         if (videoRef.current) {
           videoRef.current.muted = false;
+        }
+      },
+      setVolume: (volume: number) => {
+        if (videoRef.current) {
+          videoRef.current.muted = volume === 0;
+          videoRef.current.volume = Math.max(0, Math.min(1, volume));
         }
       }
     }));
