@@ -9,7 +9,7 @@ import { useLanguage } from '../hooks/useLanguage';
 export default function Home() {
   const [videoController, setVideoController] = useState<VideoBackgroundRef | null>(null);
   const [isBackgroundVideoPaused, setIsBackgroundVideoPaused] = useState(false);
-  const [audioEnabled, setAudioEnabled] = useState(false);
+
   const videoSectionRef = useRef<HTMLElement>(null);
   const { scrollY } = useScroll();
   
@@ -50,12 +50,7 @@ export default function Home() {
     }
   };
 
-  const handleEnableAudio = () => {
-    if (videoController) {
-      videoController.setVolume(0.3);
-      setAudioEnabled(true);
-    }
-  };
+
 
   return (
     <main className="min-h-screen bg-black text-white overflow-x-hidden">
@@ -67,17 +62,7 @@ export default function Home() {
         >
           {language === 'en' ? '中文' : 'English'}
         </button>
-        {!audioEnabled && (
-          <button
-            onClick={handleEnableAudio}
-            className="px-4 py-2 bg-green-600 hover:bg-green-700 rounded-lg transition-colors text-white font-semibold flex items-center gap-2"
-          >
-            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
-            </svg>
-            {language === 'en' ? 'Enable Audio' : '启用音频'}
-          </button>
-        )}
+
       </div>
       
       {/* 史诗级英雄区域 */}
