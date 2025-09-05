@@ -1,8 +1,7 @@
 {
-  "regions": ["hkg1", "sin1", "sfo1", "lhr1"],
+  "regions": ["hkg1"],
   "framework": "nextjs",
   "buildCommand": "npm run build",
-  "outputDirectory": "out",
   "installCommand": "npm install",
   "functions": {
     "src/app/api/revalidate/route.ts": {
