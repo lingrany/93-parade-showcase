@@ -1,0 +1,146 @@
+{
+  "timeline": [
+    {
+      "year": 1949,
+      "date": "October 1, 1949",
+      "title": "Founding Ceremony Parade",
+      "titleZh": "开国大典阅兵",
+      "description": "The first military parade of the People's Republic of China, marking the founding of New China.",
+      "descriptionZh": "中华人民共和国第一次军事阅兵，标志着新中国的成立。",
+      "highlights": [
+        "17,000 personnel participated",
+        "First parade in Tiananmen Square",
+        "Established parade traditions"
+      ],
+      "highlightsZh": [
+        "17,000人参加阅兵",
+        "天安门广场首次阅兵",
+        "确立阅兵传统"
+      ],
+      "image": "/images/timeline/1949.jpg",
+      "significance": "high"
+    },
+    {
+      "year": 1984,
+      "date": "October 1, 1984",
+      "title": "35th Anniversary Parade",
+      "titleZh": "建国35周年阅兵",
+      "description": "First parade after the Cultural Revolution, showcasing China's military modernization.",
+      "descriptionZh": "文革后首次阅兵，展示中国军队现代化成果。",
+      "highlights": [
+        "Strategic missiles debut",
+        "Modern equipment showcase",
+        "Reform and opening up era"
+      ],
+      "highlightsZh": [
+        "战略导弹首次亮相",
+        "现代化装备展示",
+        "改革开放时代"
+      ],
+      "image": "/images/timeline/1984.jpg",
+      "significance": "high"
+    },
+    {
+      "year": 1999,
+      "date": "October 1, 1999",
+      "title": "50th Anniversary Parade",
+      "titleZh": "建国50周年阅兵",
+      "description": "Celebrated half a century of the People's Republic with advanced military technology.",
+      "descriptionZh": "庆祝共和国成立50周年，展示先进军事技术。",
+      "highlights": [
+        "Information warfare units",
+        "Precision-guided weapons",
+        "New generation equipment"
+      ],
+      "highlightsZh": [
+        "信息化作战部队",
+        "精确制导武器",
+        "新一代装备"
+      ],
+      "image": "/images/timeline/1999.jpg",
+      "significance": "high"
+    },
+    {
+      "year": 2009,
+      "date": "October 1, 2009",
+      "title": "60th Anniversary Parade",
+      "titleZh": "建国60周年阅兵",
+      "description": "Demonstrated China's growing military capabilities in the 21st century.",
+      "descriptionZh": "展示21世纪中国不断增长的军事实力。",
+      "highlights": [
+        "52 weapon systems",
+        "Information-based warfare",
+        "Joint operations capability"
+      ],
+      "highlightsZh": [
+        "52种武器装备",
+        "信息化作战",
+        "联合作战能力"
+      ],
+      "image": "/images/timeline/2009.jpg",
+      "significance": "high"
+    },
+    {
+      "year": 2015,
+      "date": "September 3, 2015",
+      "title": "Victory Day Parade",
+      "titleZh": "抗战胜利70周年阅兵",
+      "description": "Commemorated the 70th anniversary of victory in the War of Resistance against Japanese Aggression.",
+      "descriptionZh": "纪念中国人民抗日战争暨世界反法西斯战争胜利70周年。",
+      "highlights": [
+        "First non-National Day parade",
+        "International participation",
+        "Peace and remembrance theme"
+      ],
+      "highlightsZh": [
+        "首次非国庆阅兵",
+        "国际参与",
+        "和平与纪念主题"
+      ],
+      "image": "/images/timeline/2015.jpg",
+      "significance": "high"
+    },
+    {
+      "year": 2019,
+      "date": "October 1, 2019",
+      "title": "70th Anniversary Parade",
+      "titleZh": "建国70周年阅兵",
+      "description": "Showcased China's military modernization achievements in the new era.",
+      "descriptionZh": "展示新时代中国军队现代化建设成就。",
+      "highlights": [
+        "DF-41 ICBM debut",
+        "Hypersonic weapons",
+        "Unmanned systems"
+      ],
+      "highlightsZh": [
+        "东风-41首次亮相",
+        "高超音速武器",
+        "无人作战系统"
+      ],
+      "image": "/images/timeline/2019.jpg",
+      "significance": "high"
+    },
+    {
+      "year": 2025,
+      "date": "September 3, 2025",
+      "title": "80th Victory Anniversary Parade",
+      "titleZh": "抗战胜利80周年阅兵",
+      "description": "Commemorating 80 years of victory in the War of Resistance against Japanese Aggression and World Anti-Fascist War, showcasing China's commitment to peace and development.",
+      "descriptionZh": "纪念中国人民抗日战争暨世界反法西斯战争胜利80周年，展示中国对和平与发展的承诺。",
+      "highlights": [
+        "Advanced stealth aircraft formations",
+        "Next-generation hypersonic weapons",
+        "AI-integrated defense systems",
+        "Peaceful development theme"
+      ],
+      "highlightsZh": [
+        "先进隐身战机编队",
+        "新一代高超音速武器",
+        "人工智能集成防务系统",
+        "和平发展主题"
+      ],
+      "image": "/images/timeline/2025.jpg",
+      "significance": "high"
+    }
+  ]
+}

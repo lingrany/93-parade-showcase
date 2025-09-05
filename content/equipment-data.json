@@ -1,0 +1,138 @@
+{
+  "equipment": [
+    {
+      "id": "df-21d",
+      "name": "DF-21D Anti-Ship Ballistic Missile",
+      "nameZh": "东风-21D反舰弹道导弹",
+      "category": "Strategic Missile",
+      "description": "World's first anti-ship ballistic missile, capable of targeting aircraft carriers at sea.",
+      "descriptionZh": "世界首款反舰弹道导弹，能够打击海上航空母舰目标。",
+      "specifications": {
+        "range": "1,500+ km",
+        "payload": "Conventional warhead",
+        "mobility": "Road-mobile",
+        "firstAppearance": "2015 Victory Day Parade"
+      },
+      "modelPath": "/models/df-21d.glb",
+      "images": ["/images/df-21d-1.jpg", "/images/df-21d-2.jpg"],
+      "featured": true
+    },
+    {
+      "id": "j-15",
+      "name": "J-15 Flying Shark Carrier Fighter",
+      "nameZh": "歼-15飞鲨舰载战斗机",
+      "category": "Fighter Aircraft",
+      "description": "China's carrier-based fighter aircraft, designed for operations from aircraft carriers.",
+      "descriptionZh": "中国舰载战斗机，专为航空母舰作战设计。",
+      "specifications": {
+        "length": "22.28 m",
+        "wingspan": "14.7 m",
+        "maxSpeed": "Mach 2.4",
+        "firstAppearance": "2015 Victory Day Parade"
+      },
+      "modelPath": "/models/j-15.glb",
+      "images": ["/images/j-15-1.jpg", "/images/j-15-2.jpg"],
+      "featured": true
+    },
+    {
+      "id": "type-99a2",
+      "name": "Type 99A2 Main Battle Tank",
+      "nameZh": "99A2式主战坦克",
+      "category": "Armored Vehicle",
+      "description": "Enhanced version of China's main battle tank with improved armor and fire control systems, featured in 2015 parade.",
+      "descriptionZh": "中国主战坦克的增强版本，配备改进的装甲和火控系统，在2015年阅兵中亮相。",
+      "specifications": {
+        "weight": "58 tons",
+        "mainGun": "125mm smoothbore",
+        "armor": "Advanced composite + ERA",
+        "crew": "3 personnel"
+      },
+      "modelPath": "/models/type-99a2.glb",
+      "images": ["/images/type-99a2-1.jpg", "/images/type-99a2-2.jpg"],
+      "featured": true
+    },
+    {
+      "id": "hq-9",
+      "name": "HQ-9 Surface-to-Air Missile System",
+      "nameZh": "红旗-9防空导弹系统",
+      "category": "Air Defense",
+      "description": "Long-range surface-to-air missile system for area air defense.",
+      "descriptionZh": "远程地对空导弹系统，用于区域防空。",
+      "specifications": {
+        "range": "200+ km",
+        "altitude": "30+ km",
+        "targets": "Aircraft, missiles",
+        "guidance": "Semi-active radar"
+      },
+      "modelPath": "/models/hq-9.glb",
+      "images": ["/images/hq-9-1.jpg", "/images/hq-9-2.jpg"],
+      "featured": false
+    }
+  ],
+  "categories": [
+    {
+      "id": "land-combat",
+      "name": "Land Combat Group",
+      "nameZh": "陆上作战群",
+      "description": "Ground-based combat systems and armored vehicles",
+      "formations": 4
+    },
+    {
+      "id": "naval-combat",
+      "name": "Naval Combat Group", 
+      "nameZh": "海上作战群",
+      "description": "Naval warfare systems and maritime equipment",
+      "formations": 3
+    },
+    {
+      "id": "air-defense",
+      "name": "Air Defense & Anti-Missile Group",
+      "nameZh": "防空反导群",
+      "description": "Air defense and missile defense systems",
+      "formations": 4
+    },
+    {
+      "id": "information-warfare",
+      "name": "Information Warfare Group",
+      "nameZh": "信息作战群",
+      "description": "Electronic warfare and cyber combat systems",
+      "formations": 3
+    },
+    {
+      "id": "unmanned-systems",
+      "name": "Unmanned Combat Group",
+      "nameZh": "无人作战群",
+      "description": "Unmanned aerial vehicles and autonomous systems",
+      "formations": 5
+    },
+    {
+      "id": "logistics-support",
+      "name": "Logistics Support Group",
+      "nameZh": "后装保障群",
+      "description": "Military logistics and support equipment",
+      "formations": 4
+    },
+    {
+      "id": "strategic-strike",
+      "name": "Strategic Strike Group",
+      "nameZh": "战略打击群",
+      "description": "Strategic missiles and long-range strike systems",
+      "formations": 4
+    }
+  ],
+  "paradeStats": {
+    "totalDuration": "70 minutes",
+    "totalFormations": 45,
+    "equipmentFormations": 27,
+    "airFormations": 10,
+    "totalPersonnel": 12000,
+    "equipmentUnits": 500,
+    "newEquipmentPercentage": 84,
+    "officialSources": [
+      "Ministry of National Defense of China",
+      "People's Daily",
+      "CCTV News",
+      "China Government Network"
+    ]
+  }
+}
